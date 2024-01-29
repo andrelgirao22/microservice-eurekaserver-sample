@@ -2,6 +2,12 @@
 spring:
   application:
     name: eurekaserver-sample
+  security:
+    basic:
+      enabled: true
+    user:
+      name: ms-eureka-user
+      password: esru-esme-krau
 
 server:
   port: 8761
